@@ -52,7 +52,18 @@ function PokemonKingdomMainPage(props){
             { loading ? (<h1>Loading...</h1>
         ) : ( 
                 <>
-                <h1>Hello PokemonKingdom welcom</h1>
+                <div className={styles["parent"]}>
+                    <div className={styles["section1"]}>
+                        <div className={styles["content1"]}>
+                            <h2>Pokemon</h2>
+                            <h2>Pokemon</h2>
+                        </div>
+                        <div className={styles["content2"]}>
+                            <h2>Kingdom</h2>
+                            <h2>Kingdom</h2>
+                        </div>
+                    </div>
+                </div>
                 {/* pokemon */}
                 <div className={styles["app-container"]}>
                     <div className={styles["pokemon-container"]}>
