@@ -1,0 +1,68 @@
+
+
+
+.popupcontainer{
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    z-index: 10000;
+
+    width: 40vw;
+    height: 50vh;
+    
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+    
+}
+.nametext{
+    font-size: 24px;
+    text-decoration: underline;
+    
+}
+.leftcontainerimage{
+    height: auto;
+    width: 200px;
+    
+}
+
+.rightcontainer{
+    
+    padding: 20px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+    /* max-width: 100%;
+    max-height: 100%; */
+}
+
+
+span{
+    font-weight: bold;
+}
+.closebutton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+}
