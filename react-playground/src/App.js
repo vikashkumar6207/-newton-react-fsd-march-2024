@@ -10,11 +10,11 @@ function App() {
   return (
    <>
     {/* <Component /> */}
-    <DigitalClock />
+    {/* <DigitalClock /> */}
     {/* <CounterClassComponent /> */}
     {/* <PokemonApiClassComponent /> */}
    
-    {/* <PokemonKingdomMainPage /> */}
+    <PokemonKingdomMainPage />
    
    </>
   );
