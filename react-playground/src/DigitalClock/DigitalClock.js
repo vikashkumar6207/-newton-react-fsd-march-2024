@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./DigitalClock.css";
 function DigitalClock(){
 
     const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -18,10 +18,13 @@ function DigitalClock(){
 
     return (
         <>
+        <div className="Clock-container">
             <h1>Digital Clock</h1>
             <div>
                 <div id="DisplayTimer" >{time}</div>
             </div>
+        </div>
+            
         </>
         
 
