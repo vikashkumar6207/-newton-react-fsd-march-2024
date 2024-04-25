@@ -5,7 +5,7 @@ import './Component/Component';
 // import DigitalClock from './DigitalClock/DigitalClock';
 // import CounterClassComponent from './CounterClassComponent/CounterClassComponent';
 import PokemonApiClassComponent from './CounterClassComponent/2.PokemonApiClassComponent/PokemonApiClassComponent';
-import PokemonKingdomMainPage from './PokemonKingdom/Page/PokemonKingdomMainPage';
+ import PokemonKingdomMainPage from './PokemonKingdom/Page/PokemonKingdomMainPage';
 function App() {
   return (
    <>
